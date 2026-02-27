@@ -1,0 +1,1 @@
+export const required: (v:any)=>boolean; export const minLength:(min:number)=>(v:any)=>boolean; export const email:(v:string)=>boolean; export function validate(v:any,rules:Function[]):boolean; export function serializeForm(form:HTMLFormElement):Record<string,any>;
